@@ -1,0 +1,3 @@
+git remoto agregar origen https://github.com/allanrodas74/proyecto1.git
+ rama git -M principal 
+git push -u origen principal

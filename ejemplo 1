@@ -1,3 +1,12 @@
-git remoto agregar origen https://github.com/allanrodas74/proyecto1.git
- rama git -M principal 
-git push -u origen principal
+import pyfirmata2
+delay=1 
+PIN=13  
+PORT=pyfirmata2.Arduino.AUTODETECT  
+board= pyfirmata2.Arduino(PORT)
+while True:
+              board.digital[PIN].write(1)
+              pass
+              board.digital[PIN].write(0)
+              pass
+
+
